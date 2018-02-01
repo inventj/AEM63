@@ -1,4 +1,4 @@
-# AEM6.4 Beta feature demo about new the new styling system
+# AEM6.3 Feature pack 20593 feature demo about new the new styling system
 
 Based upon the mvn aem project archetype
 
