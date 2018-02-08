@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workspaceFilter version="1.0">
-    <filter root="/conf/aem64"/>
-    <filter root="/content/aem64"/>
-    <filter root="/content/dam/aem64"/>
+    <filter root="/conf/AEM63"/>
+    <filter root="/content/AEM63"/>
+    <filter root="/content/dam/AEM63"/>
 </workspaceFilter>

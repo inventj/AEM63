@@ -14,7 +14,8 @@
  |  See the License for the specific language governing permissions and
  |  limitations under the License.
 -->
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
     <!-- ====================================================================== -->
@@ -22,7 +23,7 @@
     <!-- ====================================================================== -->
     <parent>
         <groupId>be.designisdead</groupId>
-        <artifactId>aem64</artifactId>
+        <artifactId>AEM63</artifactId>
         <version>1.0-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
@@ -30,10 +31,10 @@
     <!-- ====================================================================== -->
     <!-- P R O J E C T  D E S C R I P T I O N                                   -->
     <!-- ====================================================================== -->
-    <artifactId>aem64.ui.apps</artifactId>
+    <artifactId>AEM63.ui.apps</artifactId>
     <packaging>content-package</packaging>
-    <name>aem64 - UI apps</name>
-    <description>UI apps package for aem64</description>
+    <name>AEM63 - UI apps</name>
+    <description>UI apps package for AEM63</description>
 
     <!-- <scm>
         <connection></connection>
@@ -92,12 +93,12 @@
                     <filterSource>src/main/content/META-INF/vault/filter.xml</filterSource>
                     <verbose>true</verbose>
                     <failOnError>true</failOnError>
-                    <group>aem64</group>
+                    <group>AEM63</group>
                     <embeddeds>
                         <embedded>
                             <groupId>be.designisdead</groupId>
-                            <artifactId>aem64.core</artifactId>
-                            <target>/apps/aem64/install</target>
+                            <artifactId>AEM63.core</artifactId>
+                            <target>/apps/AEM63/install</target>
                         </embedded>
                     </embeddeds>
                     <subPackages>
@@ -123,7 +124,7 @@
     <dependencies>
         <dependency>
             <groupId>be.designisdead</groupId>
-            <artifactId>aem64.core</artifactId>
+            <artifactId>AEM63.core</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
 
